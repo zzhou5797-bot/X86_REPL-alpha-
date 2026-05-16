@@ -1,0 +1,1 @@
+savedcmd_asmrepl.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/7.0.7-arch1-1/build/scripts/module.lds -o asmrepl.ko asmrepl.o asmrepl.mod.o .module-common.o
